@@ -2,10 +2,11 @@ services:
   openai-gemini:
     build:
       context: .
+#      dockerfile: Dockerfile
     container_name: openai-gemini
     hostname: openai-gemini
     ports:
-      - "11434:11434"  # Map host port 8080 to container port 8080
+      - "11434:11434"
     environment:
       - NODE_ENV=production
 
