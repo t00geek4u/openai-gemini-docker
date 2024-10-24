@@ -11,12 +11,16 @@ dockerize https://github.com/PublicAffairs/openai-gemini.git for local hosting f
 # STEPS
 On a HOST (git and docker installed)
 ```sh
-git clone https://github.com/PublicAffairs/openai-gemini.git .
+git clone https://github.com/PublicAffairs/openai-gemini.git
 git clone https://github.com/t00geek4u/openai-gemini-docker.git docker
-mv docker/Dockerfile .
-mv docker/docker-compose.yml .
+mv docker/Dockerfile openai-gemini
+mv docker/docker-compose.yml openai-gemini
+rm -r docker
+cd openai-gemini
+
 ```
 
+_build and start container in foreground_
 ```sh
 docker compose up
 ```
@@ -25,4 +29,6 @@ _..or to daemonzie.._
 docker compose up -d
 ```
 
-HOST will be listening on 11434 for API calls.
+> HOST will be listening on 11434 for API calls.
+> 
+> For more info on HOW TO USE https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use
