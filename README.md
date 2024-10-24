@@ -31,4 +31,4 @@ docker compose up -d
 
 > HOST will be listening on 11434 for API calls.
 > 
-> For more info on HOW TO USE https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use
+> More info HOW TO USE [https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use]
