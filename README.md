@@ -20,13 +20,13 @@ Ensure your host system has:
 1. Clone the required repositories:
    ```sh
    git clone https://github.com/PublicAffairs/openai-gemini.git
-   git clone https://github.com/t00geek4u/openai-gemini-docker.git docker
+   git clone https://github.com/t00geek4u/openai-gemini-docker.git
    ```
 2. Move the Docker files into the openai-gemini directory:
    ```sh
-   mv docker/Dockerfile openai-gemini
-   mv docker/docker-compose.yml openai-gemini
-   rm -fr docker
+   mv openai-gemini-docker/Dockerfile openai-gemini
+   mv openai-gemini-docker/docker-compose.yml openai-gemini
+   rm -fr openai-gemini-docker
    cd openai-gemini
    ```
 
@@ -42,9 +42,18 @@ docker compose up
 To run the container in the background (detached mode), use:
 ```sh
 docker compose up -d
+docker logs openai-gemini
 ```
 > **Note**: The container will listen on **port 11434** for API calls.
 
-For more information on usage, see the [openai-gemini repository#how to use](https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use).
+### One-Click Install and Run
+To setup and run in detached mode from script, use:
+```sh
+docker compose up -d
+docker logs openai-gemini
+```
+
+
+For more information on API usage, see the [openai-gemini repository#how to use](https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use).
 
 
