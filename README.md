@@ -9,6 +9,15 @@ Dockerize the [openai-gemini](https://github.com/PublicAffairs/openai-gemini.git
 
 ---
 
+## Table of Contents
+
+- [OPENAI-GEMINI-DOCKER](#openai-gemini-docker)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup-instructions)
+  - [Build](#build-and-run-the-container)
+  - [API Usage](#for-more-information-on-api-usage-goto-openai-gemini-repositoryhow-to-use)
+---
+
 ## Prerequisites
 
 Ensure your host system has:
@@ -46,13 +55,13 @@ docker logs openai-gemini
 ```
 > **Note**: The container will listen on **port 11434** for API calls.
 
-### One-Click Install and Run
+### One-Click Setup and Run
 To setup and run in detached mode from script, use:
 ```sh
 wget -qO- https://raw.githubusercontent.com/t00geek4u/openai-gemini-docker/main/setup_run.sh | bash
 ```
 
 
-For more information on API usage, see the [openai-gemini repository#how to use](https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use).
+### For more information on API usage, goto [openai-gemini repository#how to use](https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use).
 
 
