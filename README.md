@@ -14,8 +14,8 @@ Dockerize the [openai-gemini](https://github.com/PublicAffairs/openai-gemini.git
 - [OPENAI-GEMINI-DOCKER](#openai-gemini-docker)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup-instructions)
-  - [Build](#build-and-run-the-container)
-  - [API Usage](#for-more-information-on-api-usage-goto-openai-gemini-repositoryhow-to-use)
+  - [Run](#build-and-run-the-container)
+  - [API Usage](#for-more-information-on-api-usage-goto-repo-openai-gemini-repositoryhow-to-use)
 ---
 
 ## Prerequisites
@@ -62,6 +62,6 @@ wget -qO- https://raw.githubusercontent.com/t00geek4u/openai-gemini-docker/main/
 ```
 
 
-### For more information on API usage, goto [openai-gemini repository#how to use](https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use).
+### For more information on API usage, goto [_repo: openai-gemini repository#how-to-use_](https://github.com/PublicAffairs/openai-gemini/blob/main/readme.MD#how-to-use)
 
 
