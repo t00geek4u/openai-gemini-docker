@@ -6,5 +6,5 @@ rm -fr openai-gemini-docker
 cd openai-gemini
 docker compose up -d
 docker logs openai-gemini
-
+sleep 5
 echo -e "\n"
