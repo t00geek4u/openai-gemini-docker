@@ -13,7 +13,7 @@ Dockerize the [openai-gemini](https://github.com/PublicAffairs/openai-gemini.git
 
 Ensure your host system has:
 - **Git** installed
-- **Docker** installed
+- **Docker** & **Docker Compose** installed
 
 ## Setup Instructions
 
@@ -26,7 +26,7 @@ Ensure your host system has:
    ```sh
    mv docker/Dockerfile openai-gemini
    mv docker/docker-compose.yml openai-gemini
-   rm -r docker
+   rm -fr docker
    cd openai-gemini
    ```
 
