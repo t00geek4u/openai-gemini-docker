@@ -5,6 +5,6 @@ mv openai-gemini-docker/docker-compose.yml openai-gemini
 rm -fr openai-gemini-docker
 cd openai-gemini
 docker compose up -d
-docker logs openai-gemini
 sleep 5
+docker logs openai-gemini
 echo -e "\n"
