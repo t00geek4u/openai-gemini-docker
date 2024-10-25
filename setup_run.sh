@@ -7,4 +7,3 @@ cd openai-gemini
 docker compose up -d
 sleep 5
 docker logs openai-gemini
-echo -e "\n"
