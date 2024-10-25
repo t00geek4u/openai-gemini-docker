@@ -49,8 +49,7 @@ docker logs openai-gemini
 ### One-Click Install and Run
 To setup and run in detached mode from script, use:
 ```sh
-docker compose up -d
-docker logs openai-gemini
+wget -qO- https://raw.githubusercontent.com/t00geek4u/openai-gemini-docker/main/setup_run.sh | bash
 ```
 
 
